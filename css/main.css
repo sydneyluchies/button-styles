@@ -9,12 +9,12 @@ html {
   box-sizing: inherit;
 }
 
-div{
+div {
   padding: .5rem;
   text-align: center;
 }
 
-.btn{
+.btn {
   padding: .4em .75em .3em;
   background-color: #333;
   color: #fff;
@@ -24,21 +24,22 @@ div{
   border-width: 3px;
   text-decoration: none;
   font-size: 1.25rem;
+  display: inline-block;
 }
 
-.btn-subtle{
+.btn-subtle {
   background-color: #ccc;
   border-color: #ccc;
 }
 
-.btn-ghost{
+.btn-ghost {
   background-color: #fff;
   border-style: solid;
   border-color: #333;
   color: #333;
 }
 
-.btn-warning{
+.btn-warning {
   background-color: #f33;
   border-color: #f33;
 }
