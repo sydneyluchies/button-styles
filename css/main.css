@@ -2,7 +2,6 @@ html {
   box-sizing: border-box;
   font: normal 100%/1.5 sans-serif;
   position: relative;
-
 }
 
 *, *::before, *::after {
@@ -23,7 +22,7 @@ div {
   border-radius: 8px;
   border-width: 3px;
   text-decoration: none;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   display: inline-block;
 }
 
