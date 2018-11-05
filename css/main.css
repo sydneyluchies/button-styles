@@ -1,13 +1,39 @@
 html {
   box-sizing: border-box;
   font: normal 100%/1.5 sans-serif;
+  position: relative;
+
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-div {
+div{
   padding: .5rem;
   text-align: center;
+}
+
+.btn{
+  padding: .4em .75em .3em;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  border-radius: 8px;
+  border-width: 3px;
+}
+
+.btn-subtle{
+  background-color: #ccc;
+}
+
+.btn-ghost{
+  background-color: #fff;
+  border-style: solid;
+  border-color: #333;
+  color: #333;
+}
+
+.btn-warning{
+  background-color: #f33;
 }
