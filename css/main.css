@@ -26,11 +26,20 @@ div {
   display: inline-block;
 }
 
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
+  }
+
 .btn-subtle {
   background-color: #ccc;
   border-color: #ccc;
 }
 
+.btn-subtle:hover {
+  background-color: #666;
+  border-color: #666;
+}
 .btn-ghost {
   background-color: #fff;
   border-style: solid;
@@ -38,10 +47,20 @@ div {
   color: #333;
 }
 
+.btn-ghost:hover {
+  background-color: #666;
+  border-color: #666;
+}
+
 .btn-warning {
   background-color: #f33;
   border-color: #f33;
 }
+
+.btn-warning:hover {
+  background-color: #933;
+  border-color: #933;
+  }
 
 .btn-small {
   font-size: .875rem;
