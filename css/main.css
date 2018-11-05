@@ -19,12 +19,16 @@ div{
   text-align: center;
   background-color: #333;
   color: #fff;
+  border-style: solid;
+  border-color: #333;
   border-radius: 8px;
   border-width: 3px;
+  text-decoration: none;
 }
 
 .btn-subtle{
   background-color: #ccc;
+  border-color: #ccc;
 }
 
 .btn-ghost{
@@ -36,4 +40,5 @@ div{
 
 .btn-warning{
   background-color: #f33;
+  border-color: #f33;
 }
