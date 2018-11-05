@@ -16,7 +16,6 @@ div{
 
 .btn{
   padding: .4em .75em .3em;
-  text-align: center;
   background-color: #333;
   color: #fff;
   border-style: solid;
@@ -24,6 +23,7 @@ div{
   border-radius: 8px;
   border-width: 3px;
   text-decoration: none;
+  font-size: 1.25rem;
 }
 
 .btn-subtle{
@@ -41,4 +41,12 @@ div{
 .btn-warning{
   background-color: #f33;
   border-color: #f33;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
 }
